@@ -1,0 +1,11 @@
+database:
+  uri: "mongodb://127.0.0.0:27017"
+
+aws:
+  accessKeyId  : ""
+  secretAccessKey : ""
+  sns:
+    messagesTopicArn: "<aws ses topic arn>"
+
+sentry:
+    dns: "<sentry dns url"
