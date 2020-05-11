@@ -1,6 +1,6 @@
-# api-messages
+# Ejemplo de API en golang 
 
-## Ejemplo de API en golang utilizando :
+Les comparto un ejemplo de un API utilizando golang como lenguaje de desarrollo utilizando varios frameworks interesantes :
 
 - Gin Gonic (https://github.com/gin-gonic/gin) para desarrollar API rest.
 - Gin Gonic JWT (https://github.com/appleboy/gin-jwt). Middleware para gestión de seguridad a través de JWT.
@@ -9,13 +9,15 @@
 - AWS SNS (https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/go/example_code/sns/SnsPublish.go) para gestión de notificaciones a través de un modelo de publicador y suscriptores.
 
 
-##running
+### ¿Cómo corro el ejemplo?
 go run main.go
 
-## deployment
-env GOOS=linux GOARCH=amd64 go build main.go
+### ¿Cómo armo el ejecutable para deployarlo?
 
-## packages necesarios
+Si queremos que sea para entorno linux :
+  env GOOS=linux GOARCH=amd64 go build main.go
+
+### Packages necesarios
 
 export GO111MODULE=on
 go get github.com/aws/aws-sdk-go
