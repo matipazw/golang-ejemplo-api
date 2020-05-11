@@ -5,7 +5,7 @@ aws:
   accessKeyId  : ""
   secretAccessKey : ""
   sns:
-    messagesTopicArn: "<aws ses topic arn>"
+    messagesTopicArn: "<aws sns topic arn>"
 
 sentry:
-    dns: "<sentry dns url"
+    dns: "<sentry dns url>"
